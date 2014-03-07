@@ -1,0 +1,4 @@
+#!/bin/bash
+source bin/env
+
+nohup bin/hubot --adapter hipchat > /dev/null 2>&1 &
